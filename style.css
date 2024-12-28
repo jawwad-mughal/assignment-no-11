@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+.newspaper{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin-inline: 5rem;
+}
