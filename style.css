@@ -2,16 +2,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .maincontainer{
-    background-color: black;
-    height: 100vh;
+    /* background-color: rgb(92, 88, 88); */
+    /* height: 100vh; */
     width: 100vw;
     overflow: hidden;
+    padding: 3rem;
+}
+.heading{
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 1.3rem;
+    border-bottom: 2px solid black;
     
 }
-.newspaper{
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-    margin-inline: 5rem;
+.date-time{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-block: 0.8rem;
+    border-bottom: 2px solid black;
+}
+.date-time>sup{
+    font-weight: 100;  
+} 
+.section1{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+} 
+.heading1{
+    text-transform: uppercase;
+    font-weight: 100;
+    width: 400px;
+    transform: scale(1, 1.1);
+}
+.heading2{
+    margin-top: 16px;
+    font-weight: 100;
+}
+.para2{
+    border-left: 2px solid black;
+    padding-inline: 16px;
+}
+.para3{
+    border-left: 2px solid black;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+.section2{
+    word-spacing: 2px;
+    font-size: 1.8rem;
+    padding-block: 1rem;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.box1 p{
+    width: 400px;
+}
+.box1_heading{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+}
+.box2{
+    border-left: 2px solid black;
+    padding-inline: 16px;
+}
+.box2_para2{
+    margin-top: 20px;
+}
+.box2_para3{
+    margin-top: 10px;
+}
+.box3{
+    border-left: 2px solid black;
+    padding-left: 16px;  
+}
+.box3 img{
+    /* display: inline-block; */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+.box3_para2{
+    margin-top: 16px;
+}
+.list{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.box1_para2{
+    margin-top: 15px;
 }
